@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tipos de caixas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1{
+            background-color: darkgrey;
+            height: 200px;
+            width: 200px;
+            
+            border:10px solid lightpink;
+            /* comece sempre por width -> style -> cor*/
+
+            margin: 20px 20px 40px 20px;
+            /*Podemos usar o auto no segundo px e no ultimo para "centralizar" a caixa*/
+
+            padding: 10px 10px 10px 10px;
+            /*Se todas fotem iguais so precisa colocar o valor apenas uma vez.
+            se quiser mudar a esquerda e a direita basta colocar o: padding: 10px 20px; o primeiro vai mexar com a parte de cima e a parte debaixo, o segundo vai mexer com esquerda e direita*/
+
+            outline: 5px dashed purple;
+            /*
+            estrutura do outline:
+            outline-width:5px;
+            outline-style: dashed;
+            outline-color: cor;*/
+        }
+
+        a{
+            background-color: brown;
+
+            border-style: solid;
+            border-width: 7px;
+            border-color: coral;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tipos de caixas na pratica</h1>
+    <p>Aqui vemos alguns tipos de coisas, <a href="#">aqui temos uma inline-level,</a> que podemos ver no google</p>
+</body>
+</html>

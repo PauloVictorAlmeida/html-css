@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* o text-align: center, pra mim é o mais importante*/
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
